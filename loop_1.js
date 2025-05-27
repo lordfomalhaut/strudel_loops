@@ -14,6 +14,7 @@ $: note(`
 
 
 // Drums
-$: s("<hh*2>").bank("RolandTR909").gain(.1).room(.3)._pianoroll({labels:1})
-$: s("<- sd>").bank("RolandTR909").gain(.1).room(.3)._pianoroll({labels:1})
-$: s("<- bd>").bank("RolandTR909").gain(.5).room(.3)._pianoroll({labels:1})
+$: s("<hh*2>").bank("RolandCompurhythm1000").gain(.03).room(.2)._pianoroll({labels:1})
+$: s("<oh>/4").bank("RolandTR909").gain(.03).room(.2)._pianoroll({labels:1})
+$: s("<- sd>").bank("RolandTR909").gain(.15).room(.3)._pianoroll({labels:1})
+$: s("<- bd>").bank("RolandTR909").gain(.5).room(.35)._pianoroll({labels:1})
