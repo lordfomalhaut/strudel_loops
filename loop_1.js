@@ -3,14 +3,14 @@ setcpm(rate)
 
 // Bass loop notes in C minor scale (I think)
 $: note(`
-[f2@2 f2 - g#2 g#2 a#2 g#2 - f2!2 - g#2 f2 a#2 g#2]
+[f2@2 f2 - g#2!2 a#2 g#2 - f2!2 - g#2 f2 a#2 g#2]
 `).sound("gm_synth_bass_2")
   .lpf(slider(326.4, 200,1000)) //400
   .room(slider(0.494, 0, 1)) //0.6
   .gain(slider(0.227, 0.2, 2)) //0.7
   .cpm(rate/4)
   .color("violet magenta purple hotpink")
-  ._punchcard()
+  .punchcard()
 
 
 // choirs?
